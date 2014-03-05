@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>Convert</title>
+  <script>
+      function charToHex(n)
+      {
+        switch(n)
+        {
+          case "'": return 0x44;  //'
+          case '.': return 0x3F;
+          case ',': return 0x43;
+          case ':': return 0x44;
+          case '"': return 0x40;
+          case '!': return 0x45;
+          case '?': return 0x46;
+          case '-': return 0xA0;
+          case ' ': return 0x00;  // space
+
+          case '1': return 0x35;
+          case '2': return 0x36;
+          case '3': return 0x37;
+          case '4': return 0x38;
+          case '5': return 0x39;
+          case '6': return 0x3A;
+          case '7': return 0x3B;
+          case '8': return 0x3C;
+          case '9': return 0x3D;
+          case 'A': return 0x47;
+          case 'B': return 0x48;
+          case 'C': return 0x49;
+          case '0': return 0x34;
+          case 'D': return 0x4A;
+          case 'E': return 0x4B;
+          case 'F': return 0x4C;
+          case 'G': return 0x4D;
+          case 'H': return 0x4E;
+          case 'I': return 0x4F;
+          case 'J': return 0x50;
+          case 'K': return 0x51;
+          case 'L': return 0x52;
+          case 'M': return 0x53;
+          case 'N': return 0x54;
+          case 'O': return 0x55;
+          case 'P': return 0x56;
+          case 'Q': return 0x57;
+          case 'R': return 0x58;
+          case 'S': return 0x59;
+          case 'T': return 0x5A;
+          case 'U': return 0x5B;
+          case 'V': return 0x5C;
+          case 'W': return 0x5D;
+          case 'X': return 0x5E;
+          case 'Y': return 0x5F;
+          case 'Z': return 0x60;
+          //lower case
+          case 'a': return 0x61;
+          case 'b': return 0x62;
+          case 'c': return 0x63;
+          case 'd': return 0x64;
+          case 'e': return 0x65;
+          case 'f': return 0x66;
+          case 'g': return 0x67;
+          case 'h': return 0x68;
+          case 'i': return 0x69;
+          case 'j': return 0x6A;
+          case 'k': return 0x6B;
+          case 'l': return 0x6C;
+          case 'm': return 0x6D;
+          case 'n': return 0x6E;
+          case 'o': return 0x6F;
+          case 'p': return 0x70;
+          case 'q': return 0x71;
+          case 'r': return 0x72;
+          case 's': return 0x73;
+          case 't': return 0x74;
+          case 'u': return 0x75;
+          case 'v': return 0x76;
+          case 'w': return 0x77;
+          case 'x': return 0x78;
+          case 'y': return 0x79;
+          case 'z': return 0x7A;
+
+          case '#': return 0xEA;
+          case ';': return 0xE3;
+
+//           case 'A': return 0x80;
+//           case 'B': return 0x81;
+//           case 'C': return 0x82;
+//           case 'D': return 0x83;
+//           case 'E': return 0x84;
+//           case 'F': return 0x85;
+//           case 'G': return 0x86;
+//           case 'H': return 0x87;
+//           case 'I': return 0x88;
+//           case 'J': return 0x89;
+//           case 'K': return 0x8A;
+//           case 'L': return 0x8B;
+//           case 'M': return 0x8C;
+//           case 'N': return 0x8D;
+//           case 'O': return 0x8E;
+//           case 'P': return 0x8F;
+//           case 'Q': return 0x90;
+//           case 'R': return 0x91;
+//           case 'S': return 0x92;
+//           case 'T': return 0x93;
+//           case 'U': return 0x94;
+//           case 'V': return 0x95;
+//           case 'W': return 0x96;
+//           case 'X': return 0x97;
+//           case 'Y': return 0x98;
+//           case 'Z': return 0x99;
+
+
+          default: return 0x00;
+        }
+      }
+
+      function test()
+      {
+        var text = document.getElementById("text").value;
+        var hexString = "";
+        var tile;
+        for (var i = 0; i < text.length; i++)
+        {
+          tile = charToHex(text[i]);
+          if (tile < 16)
+            hexString = hexString + "0" + tile.toString(16) + " ";
+          else
+            hexString = hexString + tile.toString(16) + " ";
+        }
+        document.getElementById("target").value = hexString;
+      }
+
+  </script>
+</head>
+
+
+<body>
+<textarea cols="50" rows="4" name="text" id="text"></textarea>
+<br /><input type="button" onClick="test();" value="Convert" />
+<br />
+<textarea cols="50" rows="4" name="hex" id="target"></textarea>
+
+</body>

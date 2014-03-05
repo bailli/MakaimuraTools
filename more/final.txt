@@ -1,0 +1,644 @@
+0,0x0148
+WELCOME,<br>FIREBRAND! HERE<press><clr>IS THE SPECTRE'S<br>FINGERNAIL. YOU<press><clr>WILL HAVE THE<br>HONOR OF<press><clr>RECEIVING THIS<br>WHEN RECOGNIZED<press><clr>AS A TRUE<br>WARRIOR. IT'S<press><clr>TIME FOR YOU TO<br>GO TO THE<press><clr>WARRIORS'<br>TRAINING CENTER.<press><closeTextBox>
+<end>
+
+1,0x01cf
+IT'S TIME FOR YOUTO GO TO THE<press><clr>WARRIORS'<br>TRAINING CENTER.<press><closeTextBox>
+<end>
+
+2,0x01f8
+STRANGERS HAVE<br>BEEN WANDERING<press><clr>AROUND HERE<br>RECENTLY. YOU<press><clr>NEED TO BECOME A<br>TRUE WARRIOR AS<press><clr>SOON AS POSSIBLE,FIREBRAND.<press><closeTextBox>
+<end>
+
+3,0x023e
+FIREBRAND, MAKE<br>SURE TO COMPLETE<press><clr>YOUR MISSION. DO<br>NOT DISAPPOINT<press><clr>KING MOROCK.<br><press><closeTextBox>
+<end>
+
+4,0x0275
+THIS IS ETRURIA,<br>WHERE KING MOROCKRULES.<press><closeTextBox>
+<end>
+
+5,0x029f
+I OFTEN SEE<br>STRANGERS HANGINGAROUND OUTSIDE.<press><clr>WHO ON EARTH ARE<br>THEY?<press><closeTextBox>
+<end>
+
+6,0x02d1
+FIREBRAND, WON'T<br>YOU GIVE UP<press><clr>BECOMING A<br>WARRIOR? DON'T<press><clr>WASTE YOUR TIME.<br>GIVE UP!<press><closeTextBox>
+<end>
+
+7,0x030f
+THERE IS A<br>WARRIORS'<press><clr>TRAINING CENTER<br>IN THIS TOWN.<press><closeTextBox>
+<end>
+
+8,0x0330
+SO MANY BRAVE<br>WARRIORS HAVE<press><clr>COME OUT FROM<br>THIS TOWN. BE THENEXT ONE,<press><clr>FIREBRAND.<br><press><closeTextBox>
+<end>
+
+9,0x036e
+ONCE PEOPLE LEAVETHIS TOWN, THEY<press><clr>NEVER COME BACK.<br>HMMM... I WONDER<press><clr>WHAT HAPPENS TO<br>THEM...<press><closeTextBox>
+<end>
+
+10,0x03bc
+FIREBRAND, YOU<br>ARE JUST A<press><clr>TRAINEE. YOU ARE<br>NOT ALLOWED TO<press><clr>LEAVE THIS TOWN<br>UNLESS YOU BECOMEA TRUE WARRIOR.<press><closeTextBox>
+<end>
+
+11,0x03fe
+HI, FIREBRAND!<br>YOU CAN GO TO THETRAINING CENTER<press><clr>THROUGH THE ROOM<br>ON YOUR RIGHT.<press><closeTextBox>
+<end>
+
+12,0x0433
+YOU CAN GO TO THETRAINING CENTER<press><clr>THROUGH THE<br>CENTER OF THIS<press><clr>ROOM. BRING BACK<br>THE POT FROM<press><clr>THERE.<br><press><closeTextBox>
+<end>
+
+13,0x046f
+YOU MUST BE FROM<br>THE GHOUL REALM.<press><script?,0xe9,0xfe,0xa6,0xf0,0x1b,0xe0,0x11><closeTextBox>
+<end>
+
+14,0x0487
+THOUGH I REALLY<br>WANT TO BE A TRUEWARRIOR, THE<press><clr>TRAINING HERE IS<br>TOO HARD FOR ME.<press><closeTextBox>
+<end>
+
+15,0x04b9
+THEY SAY ARGOB'S<br>POT CAN BE<press><clr>EXCHANGED FOR THESPECTRE'S<press><clr>FINGERNAIL.<br><press><closeTextBox>
+<end>
+
+16,0x04e1
+I'M GLAD TO SEE<br>YOU ARE SAFE,<press><clr>FIREBRAND! THE<br>BLACK LIGHT<press><clr>APPEARED SUDDENLYAND... HURRY TO<press><clr>THE KING! HURRY!<script?,0xec><script?,0xe9,0xfe,0xdd,0x08,0x03,0xf0,0x14><br><press><closeTextBox>
+<end>
+
+17,0x0532
+UH... UH... UH...FIREBRAND? I'M<press><clr>GONNA DIE... TAKETHIS SPECTRE'S<press><clr>FINGERNAIL WITH<br>YOU.<press><clr>FIREBRAND<br>OBTAINED THE<press><clr>SPECTRE'S<br>FINGERNAIL.<playSnd,0xa1><shortWait,0xb4><playSnd,0x87><script?,0xee,0x00,0x08,0x00><br><press><clr>AN INCREDIBLE<br>POWER HAS BUILT<press><clr>UP IN FIREBRAND'SBODY. NOW<press><clr>FIREBRAND CAN<br>JUMP HIGHER THAN<press><clr>BEFORE.<br><press><script?,0xec><script?,0xe9,0xfe,0xaa,0xf8,0x09,0x10,0x14>
+<end>
+
+18,0x05d7
+<clr>GO WEST,<br>FIREBRAND. YOU<press><clr>WILL FIND A TOWN<br>CALLED GIBEA,<press><clr>WHERE KING BARR<br>RULES.<press><br><clr>GU<script?,0xec><script?,0xe9,0xfe,0xbb,0x00,0x0a,0x10,0x14>OH...<br><press><script?,0xf0,0x02><script?,0xfb,0xc2><closeTextBox>
+<end>
+
+19,0x0636
+YOU MUST BE FROM<br>THE GHOUL REALM.<press><script?,0xec><script?,0xe9,0xfe,0x90,0xf8,0x1b,0x40,0x14><closeTextBox>
+<end>
+
+20,0x064f
+THIS IS GIBEA.<br>THIS TOWN WAS<press><clr>ONCE RULED BY<br>KING BARR, BUT...<press><closeTextBox>
+<end>
+
+21,0x068f
+WHAT HAPPENED TO<br>MY COUNTRY DURINGMY ABSENCE? WHAT<press><clr>A MESS!!<br><press><closeTextBox>
+<end>
+
+22,0x06d7
+THE BLACK LIGHT<br>CAME OVER THIS<press><clr>TOWN AND...<br>THOUGH I WAS<press><clr>STRUCK BY THE<br>LIGHT, THE POWER<press><clr>OF MALESTROM<br>BROUGHT ME BACK.<press><clr>BUT... LOOK AT MYUGLY FACE!<press><closeTextBox>
+<end>
+
+23,0x0740
+THE KING'S<br>PALACE, CAPITAL<press><clr>OF THE GHOUL<br>REALM, IS TO THE<press><clr>WEST OF THIS<br>TOWN. BUT YOU<press><clr>HAVE TO BREAK THEBARRIER OF KING<press><clr>BARR TO GET<br>THERE.<br><press><closeTextBox>
+<end>
+
+24,0x0799
+WATCH OUT! THEIR<br>STRENGTH IS<press><clr>BEYOND YOUR<br>IMAGINATION.<press><closeTextBox>
+<end>
+
+25,0x07c3
+WHAT A PITY... WECOULD NOT PROTECTKING BARR FROM<press><clr>THE ENEMY...<br><press><closeTextBox>
+<end>
+
+26,0x07ff
+KING BARR'S MAGICWAS SEALED. YOU<press><clr>SHOULD HAVE COME<br>A LITTLE<press><clr>EARLIER...<br><press><closeTextBox>
+<end>
+
+27,0x083f
+THERE IS A GUY<br>WHOSE NAME IS<press><clr>SAMUEL IN THE<br>TOWN SIDON, WHICHLIES NORTH-EAST<press><clr>OF THIS PLACE. HEMAY KNOW HOW TO<press><clr>RELEASE KING<br>BARR'S MAGIC<press><clr>AGAIN. BUT YOU<br>WILL HAVE TO GO<press><clr>THROUGH THE RIVEROF FLAMES IN<press><clr>ARNON TO GET<br>THERE.<press><closeTextBox>
+<end>
+
+28,0x08b9
+<jump,0xf4,0x0d,53,0,28,6>UH...<br>UH...<br>UH...<press><closeTextBox>
+<end>
+
+29,0x08e4
+<jump,0xf5,0x00,0x20,0x00,33,0,29,8>ARE YOU GOING TO<br>CROSS THE RIVER<press><clr>OF FLAME?<yesNoBox,31,30><press><closeTextBox>
+<end>
+
+30,0x0918
+<clr>YOU'D BETTER DO<br>SO.<press><closeTextBox>
+<end>
+
+31,0x0929
+<clr><jump,0xf4,0x01,149,0,31,7>ARE YOU SURE?<yesNoBox,32,30><press><closeTextBox>
+<end>
+
+32,0x093f
+<clr>YOU ARE VERY<br>BRAVE! TAKE THIS<press><clr>DRAGON'S ARMOR<br>WITH YOU. IT WILLHELP YOU.<press><clr>FIREBRAND<br>OBTAINED THE<press><clr>DRAGON'S ARMOR.<playSnd,0xa1><shortWait,0xb4><playSnd,0x86><press><br><script?,0xee,0x00,0x20,0x00><clr>THE VITALITY<br>INCREASED.<press><script?,0xec><script?,0xe9,0xfe,0xe2,0x50,0x1d,0x00,0x13><script?,0xe9,0xfe,0xe1,0x50,0x1d,0x00,0x13><script?,0xf0,0x05><closeTextBox>
+<end>
+
+33,0x09de
+GOOD LUCK!<press><closeTextBox>
+<end>
+
+34,0x09ec
+THIS IS SIDON.<br><press><closeTextBox>
+<end>
+
+35,0x09fb
+TO THE EAST OF<br>THIS TOWN IS THE<press><clr>FOREST CALLED<br>HINOM. THEY SAY<press><clr>THERE IS THE<br>PRECIOUS STONE<press><clr>CALLED THE NIGHT<br>DROP IN THE<press><clr>FOREST.<br><press><closeTextBox>
+<end>
+
+36,0x0ab3
+GO NORTH THROUGH<br>THE CAVE AND<press><clr>YOU'LL SEE THE<br>DESERT CALLED<press><clr>SITTEM.<br><press><closeTextBox>
+<end>
+
+37,0x0b27
+IT IS SAID THAT<br>THE MAGIC BUSTER<press><clr>CAN BREAK ROCKS<br>AND THE MAGIC<press><clr>TORNADO ENABLES<br>YOU TO FLY<press><clr>ANYWHERE.<br><press><closeTextBox>
+<end>
+
+38,0x0b7e
+THEY SAY A VENUS<br>OF THE NIGHT<press><clr>CALLED HECATE<br>FELL FROM THE SKYLONG TIME AGO.<press><clr>SHE WAS LOOKING<br>FOR SOME<press><clr>MATERIALS. THE<br>NAME OF ONE OF<press><clr>THE MATERIALS<br>WAS... LET ME<press><clr>SEE... THE NIGHT<br>DROP!<press><closeTextBox>
+<end>
+
+39,0x0bfa
+I AM SAMUEL.<br>WHAT? KING BARR'SMAGIC WAS SEALED?THE GREMLIN STICKMAY BE OF HELP TOYOU. OH! GO TO<press><clr>THE CAVE OF GAZA<br>NORTH OF THIS<press><clr>PLACE AND SEE<br>HECATE. SHE MUST<press><clr>KNOW SOMETHING<br>ABOUT IT!<press><closeTextBox>
+<end>
+
+40,0x0c95
+<jump,0xf5,0x00,0x01,0x00,47,0,40,8><jump,0xf4,0x08,46,0,40,14><jump,0xf5,0x04,0x00,0x00,124,0,40,22><jump,0xf5,0x02,0x00,0x00,41,0,40,30>YOUR BODY IS LIKEA FLAME. STAY<press><clr>AWAY FROM ME, I<br>HATE BRIGHT<press><clr>THINGS. I KNOW I<br>NEED THE CANDLE<press><clr>OF DARKNESS. BUT<br>I CANNOT FIND ITSMATERIALS.<press><closeTextBox>
+<end>
+
+41,0x0d2e
+OH! YOU HAVE THE<br>NIGHT DROP IN<press><clr>YOUR HANDS. NOW ICAN MAKE THE<press><clr>CANDLE OF<br>DARKNESS WITH IT.WAIT FOR A WHILE.<press><script?,0xe9,0xfe,0xc7,0xc0,0x12,0xc0,0x12><script?,0xee,0x04,0x00,0x00><script?,0xf0,0x07><closeTextBox>
+<end>
+
+42,0x0d7c
+<script?,0xec><script?,0xe9,0xfe,0xb6,0xc0,0x12,0xc0,0x12>THE WHOLE PLACE<br>WAS BLACKED OUT.<br><press><clr>IT WAS THE BLACK<br>LIGHT THAT SEALEDKING BARR'S<press><clr>MAGIC. IT'S THE<br>KING OF<press><clr>DESTRUCTION'S<br>ARMY...<script?,0xec><script?,0xe9,0xfe,0xe1,0xc0,0x12,0xc0,0x12><press><br>
+<end>
+
+43,0x0de4
+<clr>ONLY THE GREMLIN<br>STICK CAN DISPEL<press><clr>THE KING OF<br>DESTRUCTION'S<press><clr>EVIL MAGIC.<script?,0xec><script?,0xe9,0xfe,0xe1,0xc0,0x12,0xc0,0x12><br><press>
+<end>
+
+44,0x0e1a
+<clr>USE THE GREMLIN<br>STICK BEFORE KINGBARR AND HIS<press><clr>MAGIC WILL BE<br>RELEASED.<script?,0xec><script?,0xe9,0xfe,0xe1,0xc0,0x12,0xc0,0x12><br><press>
+<end>
+
+45,0x0e4b
+<clr>THE GREMLIN STICKIS IN THE RUINS<press><clr>WHICH LIE DEEP<br>WITHIN THE DESERTSITTEM.<script?,0xec><script?,0xe9,0xfe,0xe1,0xc0,0x12,0xc0,0x12>.......<press><br><script?,0xf0,0x08><closeTextBox>
+<end>
+
+46,0x0e9a
+GO TO DESERT<br>SITTEM NOW! THESEWINGS WILL ENABLEYOU TO FLY OVER<press><clr>GAZA VALLEY.<press><clr>FIREBRAND<br>OBTAINED THE<press><clr>WINGS OF A FALLENANGEL.<playSnd,0xa1><shortWait,0xb4><playSnd,0x87><press><script?,0xec><script?,0xe9,0xfe,0xb2,0xc0,0x12,0xc0,0x12><script?,0xee,0x00,0x01,0x00><script?,0xf0,0x09>
+<end>
+
+47,0x0f0e
+<clr>GOOD LUCK!<press><closeTextBox>
+<end>
+
+48,0x0f1b
+<jump,0xf5,0x00,0x01,0x00,49,0,48,8>THIS IS GAZA<br>VALLEY. IT'S<press><clr>IMPOSSIBLE FOR<br>YOU TO FLY OVER<press><clr>THIS VALLEY WITH<br>THOSE FLIMSY<press><clr>WINGS.<br><press><closeTextBox>
+<end>
+
+49,0x0f6c
+<jump,0xf4,0x0a,150,0,49,6><jump,0xf4,0x0b,150,0,49,12><jump,0xf5,0x80,0x00,0x00,150,0,49,20>OH! YOU HAVE THE<br>WINGS OF A FALLENANGEL! WITH THOSEWINGS, YOU MAY BEABLE TO FLY OVER<press><clr>GAZA VALLEY. GO<br>TO DESERT SITTEM,FIREBRAND!<press><script?,0xec><script?,0xe9,0xfe,0xe1,0x18,0x1e,0xa0,0x10><script?,0xf0,0x0a><closeTextBox>
+<end>
+
+50,0x0ff2
+FIREBRAND<br>OBTAINED THE<press><clr>NIGHT DROP.<playSnd,0xa1><shortWait,0xb4><playSnd,0x86><press><br><script?,0xf0,0x06><script?,0xee,0x02,0x00,0x00><clr>SOMETHING VERY<br>POWERFUL HAS<press><clr>BUILT UP IN<br>FIREBRAND'S BODY.FIREBRAND<press><clr>OBTAINED THE<br>MAGIC BUSTER.<press><script?,0xe9,0xfe,0xae,0x10,0x1f,0x20,0x11><closeTextBox>
+<end>
+
+51,0x1050
+FIREBRAND<br>OBTAINED THE<press><clr>GREMLIN STICK AT<br>THE BOTTOM OF THEDESERT.<playSnd,0xa1><shortWait,0xb4><playSnd,0x86><br><press><clr>SOMETHING VERY<br>POWERFUL HAS<press><clr>BUILT UP IN<br>FIREBRAND'S BODY.<press><br><script?,0xec><script?,0xf0,0x0b><script?,0xee,0x08,0x00,0x00><clr>FIREBRAND<br>OBTAINED THE<press><clr>MAGIC TORNADO.<br><press><script?,0xe9,0xfe,0xaf,0x20,0x1f,0x80,0x0f><closeTextBox>
+<end>
+
+52,0x10bb
+UH...<br>UH...<br>UH...<press><br><clr>WOW, I CAN MOVE!<br>MY BODY WORKS!<press><br><script?,0xf0,0x0c><clr>THANK YOU,<br>FIREBRAND.<press><br><clr>I'LL GIVE YOU MY<br>POWER!<press><br><clr>KAH...<script?,0xec><script?,0xe9,0xfe,0xba,0x00,0x1b,0x40,0x0a>......<br><press><clr>NOW FIREBRAND CANJUMP HIGHER THAN<press><clr>BEFORE.<script?,0xec><script?,0xe9,0xfe,0xab,0x00,0x1b,0x40,0x0a><playSnd,0xa1><shortWait,0xb4><playSnd,0x87><press><br><clr>LET'S BREAK THE<br>BARRIER AND GO TOTHE KING'S<press><clr>PALACE.<br><press><script?,0xf0,0x0d><br>
+<end>
+
+53,0x119b
+FIREBRAND, GO TO<br>THE KING'S PALACEIMMEDIATELY!<press><closeTextBox>
+<end>
+
+54,0x11c9
+KING BARR'S MAGICHAS NOT<press><clr>COMPLETELY<br>RECOVERED. YOU<press><clr>ARE THE ONLY<br>HOPE, FIREBRAND.<press><closeTextBox>
+<end>
+
+55,0x1206
+FIND OUT WHAT THEBLACK LIGHT IS,<press><clr>FIREBRAND. I KNOWYOU CAN DO IT.<press><closeTextBox>
+<end>
+
+56,0x1243
+UH... UH... UH...THE BLACK LIGHT<press><clr>APPEARED AND...<br>IT WAS HEADING<press><clr>FOR THE KING'S<br>PALACE. I'LL<press><clr>LEAVE IT TO YOU,<br>FIREBRAND.<script?,0xec><script?,0xf3><script?,0xf0,0x0e><press><closeTextBox>
+<end>
+
+57,0x1298
+WELCOME TO THE<br>KING'S PALACE.<press><closeTextBox>
+<end>
+
+58,0x12b2
+I SAW THE BLACK<br>LIGHT COVER THE<press><clr>KING'S PALACE. SOI HURRIED HERE<press><clr>BUT SOMETHING IS<br>STRANGE...<press><closeTextBox>
+<end>
+
+59,0x12fd
+<clr>..........<br>KU KU KU...<press><closeTextBox>
+<end>
+
+60,0x131a
+<clr>OH! FIREBRAND,<br>WHAT'S THE HURRY?WHAT? THE BLACK<press><clr>LIGHT? WHAT'S<br>THAT? I DON'T<press><clr>UNDERSTAND WHAT<br>YOU ARE TALKING<press><clr>ABOUT? THERE IS<br>NOTHING TO WORRY<press><clr>ABOUT. GO BACK TOETRURIA.<yesNoBox,59,61><press><closeTextBox>
+<end>
+
+61,0x1391
+<clr>YOU DARE OPPOSE<br>ME?<press><clr>KU KU KU...<br><script?,0xec><script?,0xe9,0xfe,0xbe,0x00,0x02,0x10,0x16>KU KU KU...<press>
+<end>
+
+62,0x13de
+<clr>WELL, IT SEEMS I<br>MUST DESTROY YOU!<press><script?,0xe9,0xfe,0x9d,0x00,0x02,0x10,0x16><closeTextBox>
+<end>
+
+63,0x140d
+<clr><script?,0xec><script?,0xe9,0xfe,0xce,0x00,0x02,0x10,0x16>OH! GOSH!! YOU<br>ARE THAT RED...<press><clr>GUWA...<script?,0xec><script?,0xe9,0xfe,0xcb,0x00,0x02,0x10,0x16>......<br><press><closeTextBox>
+<end>
+
+64,0x144a
+THIS IS THE<br>KING'S PALACE,<press><clr>CAPITAL OF THE<br>GHOUL REALM.<press><closeTextBox>
+<end>
+
+65,0x1463
+WHAT?! SOMEONE<br>DISGUISED HIMSELFAS THE KING OF<press><clr>THE GHOUL REALM?<br>THEN WHERE IS THEKING HIMSELF?<press><closeTextBox>
+<end>
+
+66,0x14a7
+TO THE NORTH-EASTOF THIS PLACE IS<press><clr>A MOUNTAIN CALLEDIMAUS. AND THERE<press><clr>IS AN OLD PALACE<br>IN THE MOUNTAIN.<press><clr>BUT NO ONE TRIES<br>TO GO THERE.<press><closeTextBox>
+<end>
+
+67,0x14fe
+I SAW IT FOR<br>SURE. THE BLACK<press><clr>LIGHT WAS GOING<br>TOWARD MT. IMAUS.<press><closeTextBox>
+<end>
+
+68,0x1530
+THERE IS A<br>LABORATORY IN THEKING'S PALACE.<press><closeTextBox>
+<end>
+
+69,0x1557
+TO THE NORTH-WESTOF THE KING'S<press><clr>PALACE IS THE<br>OLDEST VILLAGE INTHE GHOUL REALM<press><clr>CALLED TOPETE.<br><press><closeTextBox>
+<end>
+
+70,0x158d
+A LONG TIME AGO,<br>IT WAS SAID THAT<press><clr>ONLY THE BRAVEST<br>MAN IN THE GHOUL<press><clr>REALM  WAS<br>ALLOWED TO GO TO<press><clr>THE PALACE OF<br>IMAUS.<press><closeTextBox>
+<end>
+
+71,0x15d0
+THIS IS THE<br>LABORATORY OF THEGHOUL REALM.<press><closeTextBox>
+<end>
+
+72,0x15e4
+THE ESSENCE OF<br>DARKNESS AND THE<press><clr>POWER OF<br>MALESTROM WERE<press><clr>DEVELOPED HERE.<br><press><closeTextBox>
+<end>
+
+73,0x160d
+THE KING HAS<br>HIDDEN SOME<press><clr>MATERIALS THAT<br>ARE MADE HERE IN<press><clr>THE REALM.<br><press><closeTextBox>
+<end>
+
+74,0x1636
+<jump,0xf5,0x00,0x00,0x08,77,0,74,8>HAVE YOU EVER<br>HEARD ABOUT THE<press><clr>ESSENCE OF THE<br>GHOUL REALM?<yesNoBox,75,76><press><closeTextBox>
+<end>
+
+75,0x1658
+<clr>YOU ARE SUCH A<br>KNOWLEDGEABLE<press><clr>MAN!<br><press><closeTextBox>
+<end>
+
+76,0x166a
+<clr>WHY DON'T YOU TRYIT? FIREBRAND<press><clr>OBTAINED THE<br>ESSENCE OF THE<press><clr>GHOUL REALM.<script?,0xec><script?,0xe9,0xfe,0xed,0xe8,0x03,0xc0,0x16><playSnd,0xa1><shortWait,0xb4><playSnd,0x84><press><br><clr>THE VITALITY<br>INCREASED.<press><closeTextBox>
+<end>
+
+77,0x16c4
+<clr>YOU SEE? GREAT<br>HUH?<br><press><closeTextBox>
+<end>
+
+78,0x16d5
+THE ESSENCE OF<br>THE GHOUL REALM<press><clr>IS HIDDEN VERY<br>WELL. TRY<press><clr>SEARCHING MANY<br>PLACES.<press><closeTextBox>
+<end>
+
+79,0x1709
+<jump,0xf8,100,0,79,5><jump,0xf5,0x10,0x00,0x00,79,13,79,21><jump,0xf5,0x20,0x00,0x00,96,0,79,21>I'VE BEEN<br>STUDYING THE<press><clr>ESSENCE OF<br>SOULSTREAM FOR<press><clr>MANY YEARS. IT<br>CAN RECOVER YOUR<press><clr>VITALITY TO THE<br>MAXIMUM. BUT ITS<press><clr>MATERIALS ARE<br>VERY RARE. I NEEDTHE ACHELON'S<press><clr>WATER AND THE<br>DAGON'S SCALES!<press><closeTextBox>
+<end>
+
+80,0x17a6
+THE ACHELON'S<br>WATER IS SAID TO<press><clr>BE HIDDEN<br>SOMEWHERE NEAR<press><clr>MT. IMAUS.<br><press><closeTextBox>
+<end>
+
+81,0x17e9
+FIREBRAND<br>OBTAINED THE<press><clr>ACHELON'S WATER.<br><playSnd,0xa1><shortWait,0xb4><playSnd,0x86><press><script?,0xee,0x10,0x00,0x00><closeTextBox>
+<end>
+
+82,0x180e
+FIREBRAND<br>OBTAINED THE<press><clr>CANDLE OF<br>POLTERGEIST.<playSnd,0xa1><shortWait,0xb4><playSnd,0x86><press><script?,0xee,0x40,0x00,0x00><closeTextBox>
+<end>
+
+83,0x1835
+<jump,0xf9,0x03,85,0,83,6><jump,0xf9,0x04,85,0,83,12><jump,0xfa,0x02,85,0,83,18><jump,0xfa,0x03,85,0,83,24><jump,0xfa,0x04,85,0,83,30>UH...<br>UH...<br>UH...<press><br><clr>FIREBRAND? OH,YOUHAVE THE CANDLE<press><clr>OF POLTERGEIST.<br>PLEASE USE IT IN<press><clr>FRONT OF ME NOW!<br><press><br>
+<end>
+
+84,0x1905
+<clr>IT SEEMS MY MAGICIS COMING BACK.<press><clr>THE KING OF<br>DESTRUCTION TOOK<press><clr>ME BY SURPRISE<br>AND SEALED MY<press><clr>MAGIC. BUT NOBODYKNOWS WHO THE<press><clr>KING OF<br>DESTRUCTION IS. ISUGGEST YOU SEE AGREAT OLD MAN<press><clr>NAMED LETHE, WHO<br>LIVES IN THE<press><clr>LABYRINTH TO THE<br>NORTH OF THE<press><clr>VILLAGE TOPETE.<br>HE MAY KNOW<press><clr>SOMETHING ABOUT<br>THE KING. I'LL<press><clr>GIVE YOU MY<br>POWER, FIREBRAND.KAH<script?,0xec><script?,0xe9,0xfe,0xba,0xf0,0x14,0xe0,0x12>HHH...<br><press><clr>NOW FIREBRAND CANJUMP HIGHER AND<press><clr>FLY FURTHER THAN<br>BEFORE.<br><playSnd,0xa1><shortWait,0xb4><playSnd,0x87><press><script?,0xec><script?,0xe9,0xfe,0xac,0xf0,0x14,0xe0,0x12><script?,0xe9,0xfe,0xb3,0xf0,0x14,0xe0,0x12><closeTextBox>
+<end>
+
+85,0x1a30
+YOU CAN GO ENTER<br>MT. IMAUS THROUGHTHIS ROOM. GO<press><clr>AHEAD, FIREBRAND!THE FUTURE OF THEGHOUL REALM<press><clr>DEPENDS ON YOU.<br><press><script?,0xec><script?,0xe9,0xfe,0x94,0x90,0x14,0xe0,0x12><closeTextBox>
+<end>
+
+86,0x1a8f
+THIS IS TOPETE, ALOST VILLAGE.<press><closeTextBox>
+<end>
+
+87,0x1ab3
+THEY SAY A<br>HORRIBLE MONSTER<press><clr>CALLED DAGON<br>LIVES IN THE<press><clr>DESERT SOUTH OF<br>THIS VILLAGE,<press><clr>THAT IS WHY<br>NOBODY TRIES TO<press><clr>GO THERE.<br><press><closeTextBox>
+<end>
+
+88,0x1b89
+LETHE IS LIVING<br>IN THE LABYRINTH<press><clr>TO THE NORTH OF<br>THIS VILLAGE.<press><closeTextBox>
+<end>
+
+89,0x1bbe
+YOU HAVE TO<br>RECEIVE THE POWERFROM THE KING OF<press><clr>THE GHOUL REALM<br>BEFORE YOU GO TO<press><clr>SEE LETHE.<br><press><closeTextBox>
+<end>
+
+90,0x1bf1
+LETHE IS THE<br>GREAT WISE MAN<press><clr>WHO HAS LIVED<br>HERE SINCE THE<press><clr>BEGINNING OF THE<br>GHOUL REALM.<press><closeTextBox>
+<end>
+
+91,0x1c2a
+I WONDER IF YOU<br>MAY BE THE MAN<press><clr>LETHE TOLD ME...<br>FORGET ABOUT IT.<press><clr>GO SEE LETHE<br>YOURSELF.<press><closeTextBox>
+<end>
+
+92,0x1c6c
+THE LABYRINTH IS<br>A HOUSE OF<press><clr>MIRRORS. YOU CAN<br>WARP FROM ONE<press><clr>MIRROR TO<br>ANOTHER.<press><closeTextBox>
+<end>
+
+93,0x1c9e
+IN THE LABYRINTH,YOU MAY HAVE TO<press><clr>FIGHT AGAINST<br>YOURSELF. THOSE<press><clr>WHO GET OVER<br>THEMSELVES WILL<press><clr>BE ABLE TO SEE<br>LETHE.<press><closeTextBox>
+<end>
+
+94,0x1ce0
+DOPPELGANGER IS AMONSTER OF<press><clr>MIRRORS. NEVER<br>ATTACK HIM WHILE<press><clr>HE IS TRANSFORMEDINTO YOU. ATTACK<press><clr>HIM WHEN HE<br>REVEALS HIMSELF.<press><closeTextBox>
+<end>
+
+95,0x1d34
+FIREBRAND<br>OBTAINED THE<press><clr>DAGON'S SCALES.<br><playSnd,0xa1><shortWait,0x8c><playSnd,0x86><press><script?,0xee,0x20,0x00,0x00><closeTextBox>
+<end>
+
+96,0x1d59
+OH! YOU HAVE THE<br>ACHELON'S WATER<press><clr>AND THE DAGON'S<br>SCALES. GIVE THEMTO ME, PLEASE!<yesNoBox,97,98><press><closeTextBox>
+<end>
+
+97,0x1d90
+<clr>WAIT FOR A WHILE.I'LL MAKE YOU THEESSENCE OF<press><clr>SOULSTREAM WITH<br>THESE MATERIALS.<press><script?,0xe9,0xfe,0xe6,0x88,0x03,0xf0,0x16><closeTextBox>
+<end>
+
+98,0x1dbe
+<clr>WHAT A MISER!<br><press><closeTextBox>
+<end>
+
+99,0x1dc8
+<clr>HERE YOU ARE. USEIT AND YOUR<press><clr>VITALITY WILL BE<br>FULLY RECOVERED.<press><script?,0xe9,0xfe,0xe7,0x88,0x03,0xf0,0x16><closeTextBox>
+<end>
+
+100,0x1e11
+DID YOU MAKE GOODUSE OF THE<press><clr>ESSENCE OF<br>SOULSTREAM?<press><closeTextBox>
+<end>
+
+101,0x1e29
+<jump,0xf4,0x0f,101,6,141,0><jump,0xf9,0x03,101,18,101,12><jump,0xf9,0x04,101,18,141,0><jump,0xfa,0x02,101,36,101,24><jump,0xfa,0x03,101,36,101,30><jump,0xfa,0x04,101,36,141,0>FIREBRAND, I<br>CANNOT LET YOU<press><clr>SEE LETHE.<br><press><script?,0xe9,0xfe,0x9b,0xc8,0x18,0xe0,0x0f><closeTextBox>
+<end>
+
+102,0x1e7c
+<jump,0xf4,0x16,115,0,102,6><jump,0xf4,0x17,115,0,102,12><jump,0xf5,0x00,0x00,0x01,115,0,102,20><jump,0xf5,0x80,0x00,0x00,104,0,102,28>I'VE BEEN<br>EXPECTING YOU TO<press><clr>COME, FIREBRAND.<br>YOU ARE THE<press><clr>CHOSEN ONE. I'LL<br>TELL YOU THE OLD<press><clr>LEGEND OF THE<br>GHOUL REALM.<press><clr>LISTEN UP.<br><press><br><script?,0xe9,0xfe,0xd0,0x00,0x17,0x10,0x12><closeTextBox>
+<end>
+
+103,0x1ef9
+FIREBRAND, IT IS<br>GOZA WHO IS<press><clr>TRYING TO DESTROYTHE GHOUL REALM.<press><clr>HE IS TRYING TO<br>FREE THE KING OF<press><clr>DESTRUCTION,<br>BREAGER, WHO CAN<press><clr>DESTROY THE WHOLEWORLD. GAZA<press><clr>CREVASSE<br>OVERFLOWED WITH<press><clr>THE BLACK LIGHT<br>AND BREAGER'S<press><clr>PALACE BEGAN TO<br>APPEAR.<press><clr>FIREBRAND, GO TO<br>LOOSEKEEP AND ASKTHE KING AND<press><clr>QUEEN TO PUT<br>THEIR POWER INTO<press><clr>THIS CANDLE.<press><clr>FIREBRAND<br>OBTAINED LETHE'S<press><clr>CANDLE.<br><playSnd,0xa1><shortWait,0xb4><playSnd,0x87><press><script?,0xf0,0x11><script?,0xee,0x80,0x00,0x00><closeTextBox>
+<end>
+
+104,0x2054
+<jump,0xf4,0x11,104,30,104,6><jump,0xf4,0x15,114,0,104,12><jump,0xf4,0x14,114,0,104,18><jump,0xf4,0x16,115,0,104,24><jump,0xf4,0x17,115,0,104,30>COME BACK HERE<br>WHEN YOU RECEIVE<press><clr>THE POWER FROM<br>THE KING AND<press><clr>QUEEN. THEN THE<br>CANDLE WILL TURN<press><clr>INTO THE CANDLE<br>OF THE GHOUL<press><clr>REALM AND THE<br>ROAD TO BREAGER'SPALACE WILL BE<press><clr>OPENED.<br><press><br><closeTextBox>
+<end>
+
+105,0x20d3
+<jump,0xf4,0x16,116,0,105,6><jump,0xf4,0x17,116,0,105,12>TO REACH<br>LOOSEKEEP, YOU<press><clr>HAVE TO GO<br>THROUGH NAGA'S<press><clr>PATH, SOUTH-EAST<br>OF THIS PLACE. I<press><clr>HEARD ONLY ONE OFSEVERAL ENTRANCESOF NAGA'S PATH<press><clr>LEADS TO<br>LOOSEKEEP.<press><closeTextBox>
+<end>
+
+106,0x2166
+GOOD FOR YOU,<br>FIREBRAND! THIS<press><clr>IS LOOSEKEEP.<br><press><closeTextBox>
+<end>
+
+107,0x218c
+BEHAVE YOURSELF!<br>CAN'T YOU SEE<press><clr>KING RUSHIFELL ISIN THE LEFT TOWERAND QUEEN VERONA<press><clr>IS IN THE RIGHT<br>TOWER?<press><closeTextBox>
+<end>
+
+108,0x21da
+SUDDENLY THE GAZACREVASSE BEGAN TOOVERFLOW WITH THEBLACK LIGHT. EVENRUSHIFELL AND<press><clr>VERONA COULD NOT<br>DO ANYTHING ABOUTIT.<press><closeTextBox>
+<end>
+
+109,0x223a
+<jump,0xf4,0x17,111,0,109,6><jump,0xf4,0x16,111,0,109,12><jump,0xf4,0x15,111,0,109,18><jump,0xf4,0x14,111,0,109,24><jump,0xf4,0x13,111,0,109,30><jump,0xf4,0x12,148,0,109,36>OH, THAT'S<br>LETHE'S CANDLE.<press><clr>YOU SAW LETHE,<br>DIDN'T YOU? YOU<press><clr>MUST BE THE ONE<br>WHO CAN SAVE THE<press><clr>GHOUL REALM. I'LLPUT MY POWER INTOTHE CANDLE.<press><clr>KAH<script?,0xec><script?,0xe9,0xfe,0xba,0x00,0x18,0x40,0x09>HHH...<br><press>
+<end>
+
+110,0x22e0
+<clr>FIREBRAND<br>OBTAINED THE<press><clr>HIPPOGRIFF'S<br>FEATHER.<playSnd,0xa1><shortWait,0xb4><playSnd,0x87><script?,0xee,0x00,0x02,0x00><press><br><clr>FIREBRAND'S WINGSWERE COVERED WITHTHE HIPPOGRIFF'S<press><clr>FEATHER. NOW<br>FIREBRAND CAN FLYFURTHER THAN<press><clr>BEFORE.<br><press><br><script?,0xe9,0xfe,0xb4,0x00,0x18,0x40,0x09><script?,0xf0,0x13><closeTextBox>
+<end>
+
+111,0x234c
+<clr>GO AHEAD,<br>FIREBRAND! STOP<press><clr>THE BLACK LIGHT!<br><press><closeTextBox>
+<end>
+
+112,0x237e
+<jump,0xf4,0x17,113,0,112,6><jump,0xf4,0x16,113,0,112,12><jump,0xf4,0x15,113,0,112,18><jump,0xf4,0x14,113,0,112,24><jump,0xf4,0x13,147,0,112,30><jump,0xf4,0x12,113,0,112,36>OH, THAT'S<br>LETHE'S CANDLE.<press><clr>YOU SAW LETHE,<br>DIDN'T YOU? YOU<press><clr>MUST BE THE ONE<br>WHO CAN SAVE THE<press><clr>GHOUL REALM. I'LLPUT MY POWER INTOTHE CANDLE.<press><clr>KAH<script?,0xec><script?,0xe9,0xfe,0xba,0x00,0x16,0x40,0x09>HHH...<br><press><clr>SOMETHING VERY<br>POWERFUL HAS<press><clr>BUILT UP IN<br>FIREBRAND'S BODY.FIREBRAND<press><clr>OBTAINED THE<br>MAGIC CLAW.<playSnd,0xa1><shortWait,0xb4><playSnd,0x87><press><script?,0xe9,0xfe,0xb0,0x00,0x16,0x40,0x09><script?,0xf0,0x12><closeTextBox>
+<end>
+
+113,0x2463
+<clr>WITH THE MAGIC<br>CLAW, YOU WILL BEABLE TO CLIMB UP<press><clr>THE WALLS OF<br>THORNS. THE<press><clr>FUTURE OF THE<br>GHOUL REALM<press><clr>DEPENDS ON YOU,<br>FIREBRAND.<press><closeTextBox>
+<end>
+
+114,0x24ac
+YOU SEEM TO HAVE<br>OBTAINED THE<press><clr>POWER OF<br>RUSHIFELL AND<press><clr>VERONA. NOW I'LL<br>PUT MY POWER INTOTHE CANDLE.<press><clr>KAH<script?,0xec><script?,0xe9,0xfe,0xba,0x00,0x17,0x10,0x12>HHH...<br><press><clr>LETHE'S CANDLE<br>TURNED INTO THE<press><clr>CANDLE OF THE<br>GHOUL REALM.<press><script?,0xec><script?,0xe9,0xfe,0xe4,0x00,0x17,0x10,0x12><br><clr>USE THE CANDLE OFTHE GHOUL REALM<press><clr>BEFORE THE<br>BARRIER AT<press><clr>BREAGER'S PALACE<br>AND THE BARRIER<press><clr>WILL BE BROKEN.<br><press><script?,0xf0,0x16><closeTextBox>
+<end>
+
+115,0x2573
+FIREBRAND, GO TO<br>BREAGER'S PALACE.DESTROY GOZA AND<press><clr>SAVE THE GHOUL<br>REALM, PLEASE!<press><closeTextBox>
+<end>
+
+116,0x25ae
+ENTER BREAGER'S<br>PALACE THROUGH<press><clr>ITS ROOF,<br>FIREBRAND. THE<press><clr>MAGIC CLAW WILL<br>HELP YOU.<press><closeTextBox>
+<end>
+
+117,0x25f9
+WELCOME<br>FIREBRAND. I MUSTDESTROY YOU<press><clr>BEFORE YOU BECOMETHE TRUE RED<press><clr>BLAZE.<br><press><script?,0xe9,0xfe,0x95,0xd0,0x16,0x10,0x0e><closeTextBox>
+<end>
+
+118,0x263a
+ALTHOUGH YOU<br>DEFEATED ME, YOU<press><clr>WILL NOT BE ABLE<br>TO DEFEAT KING<press><clr>BREAGER UNLESS<br>YOU BECOME THE<press><clr>TRUE RED BLAZE.<br>ALSO, KING<press><clr>BREAGER SHOULD<br>HAVE COMPLETELY<press><clr>REVIVED BY NOW...<press><br><clr><script?,0xec><script?,0xe9,0xfe,0xcc,0xd0,0x16,0x10,0x0e>HEE, HEE, HEE...<br><press><script?,0xe9,0xfe,0x97,0xd0,0x16,0x10,0x0e><closeTextBox>
+<end>
+
+119,0x26cc
+A VOICE CAN BE<br>HEARD FROM<press><clr>SOMEWHERE...<press><br><clr>I ADMIRE YOU<br>COMING THIS FAR,<press><clr>FIREBRAND. I'M<br>DEMOGORGON. THE<press><clr>BLACK LIGHT<br>REPRESENTS KING<press><clr>BREAGER'S<br>TREMENDOUS<press><clr>DESTRUCTIVE<br>POWER. HIS<press><clr>MYSTERIOUS ARMY<br>IS CONTROLLED BY<press><clr>HIS PSYCHIC<br>POWER. NOW IT'S<press><clr>TIME FOR YOU TO<br>PROVE THAT YOU<press><clr>ARE THE TRUE RED<br>BLAZE AND DEFEAT<press><clr>KING BREAGER.<br>I'LL GIVE YOU MY<press><clr>POWER.<br><press><br>
+<end>
+
+120,0x27de
+<clr>FIREBRAND<br>OBTAINED THE<press><clr>MAMMON'S HOOF.<playSnd,0xa1><shortWait,0xb4><playSnd,0x87><script?,0xee,0x00,0x10,0x00><press><br><script?,0xec><script?,0xe9,0xfe,0xad,0x08,0x17,0x50,0x18><clr>FIREBRAND<br>OBTAINED THE<press><clr>BEREAL'S WINGS.<script?,0xee,0x00,0x04,0x00><br><press><script?,0xec><script?,0xe9,0xfe,0xb5,0x08,0x17,0x50,0x18><clr>FIREBRAND<br>OBTAINED THE<press><clr>ATLAS' ARMOR.<script?,0xec><script?,0xe9,0xfe,0xde,0x08,0x17,0x50,0x18><script?,0xee,0x00,0x40,0x00><br><press><clr>ALL THE POWER OF<br>FIREBRAND HAS<press><clr>BUILT UP IN<br>FIREBRAND'S BODY.FIREBRAND<press><clr>OBTAINED THE<br>MAGIC DARKFIRE.<press><script?,0xec><script?,0xe9,0xfe,0xb1,0x08,0x17,0x50,0x18><br>
+<end>
+
+121,0x28a2
+<clr>YOU MAY BE ABLE<br>TO DEFEAT KING<press><clr>BREAGER WITH THE<br>POWER OF THE<press><clr>MAGIC DARKFIRE.<br>GO AHEAD,<press><clr>FIREBRAND THE REDBLAZE!<press><script?,0xfb,0xc5><closeTextBox>
+<end>
+
+122,0x28f4
+YOU FINALLY CAME,RED BLAZE.<press><clr>ALTHOUGH I HAVE<br>NOT COMPLETELY<press><clr>RECOVERED MY<br>POWER, I AM<press><clr>POWERFUL ENOUGH<br>TO DESTROY YOU<press><clr>AND PUT AN END TOTHE LEGEND OF THERED BLAZE.<press><script?,0xe9,0xfe,0x98,0xd0,0x14,0x10,0x16><closeTextBox>
+<end>
+
+123,0x295d
+I CANNOT BELIEVE<br>THIS! I NEVER<press><clr>DREAMED MY PLOT<br>WOULD BE THWARTEDBY YOU, RED<press><clr>BLAZE. BUT<br>REMEMBER, SOMEDAYI WILL REVIVE ANDDESTROY YOU!<br><script?,0xec><script?,0xe9,0xfe,0xcd,0xd0,0x14,0x10,0x16><press><script?,0xe9,0xfe,0x99,0xd0,0x14,0x10,0x16><closeTextBox>
+<end>
+
+124,0x29d8
+<jump,0xf4,0x07,124,6,46,0>USE THIS CANDLE<br>OF DARKNESS AT<press><clr>THE CENTER OF<br>THIS ROOM.<press><closeTextBox>
+<end>
+
+125,0x2a09
+FIREBRAND<br>OBTAINED 6 VIALS.<press><script?,0xf1,0x06><closeTextBox>
+<end>
+
+126,0x2a25
+YOU MUST BE FROM<br>THE GHOUL REALM.<press><script?,0xe9,0xfe,0x92,0x30,0x19,0x50,0x13><closeTextBox>
+<end>
+
+127,0x2a3d
+YOU MUST BE FROM<br>THE GHOUL REALM.<press><script?,0xe9,0xfe,0xa1,0x10,0x1f,0xc0,0x11><closeTextBox>
+<end>
+
+128,0x2a55
+A LONG, LONG TIMEAGO, BEFORE HUMANBEING APPEARED...THERE LIVED A<press><clr>MONSTER NAMED<br>FIREBRAND IN A<press><clr>TOWN OF THE GHOULREALM, ETRURIA.<press><clr>TO BECOME A TRUE<br>WARRIOR,<press><clr>FIREBRAND TRAINEDHIMSELF IN THE<press><clr>WARRIORS'<br>TRAINING CENTER<press><clr>EVERY DAY. BUT<br>ONE DAY...<press><script?,0xe9,0xfe,0x8d,0x00,0x03,0x00,0x01><closeTextBox>
+<end>
+
+129,0x2afa
+YOU DID VERY<br>WELL, FIREBRAND!<press><closeTextBox>
+<end>
+
+130,0x2b0d
+I KNEW YOU WOULD.<press><closeTextBox>
+<end>
+
+131,0x2b24
+YOU ARE THE<br>GREATEST WARRIOR<press><clr>IN THE GHOUL<br>REALM!<press><closeTextBox>
+<end>
+
+132,0x2b3d
+NOW HURRY TO THE<br>KING OF THE GHOULREALM.<press><closeTextBox>
+<end>
+
+133,0x2b53
+I APPRECIATE YOUREFFORT,<press><clr>FIREBRAND. I<br>NEVER DREAMED.<press><clr>YOU WERE THE<br>LEGENDARY RED<press><clr>BLAZE. BY THE<br>WAY, I HEARD OF AVERY BEAUTIFUL<press><clr>LAND CALLED THE<br>HUMAN WORLD. IT<press><clr>IS UNDER<br>CONSTRUCTION.<press><clr>EXPLORE THE LAND<br>AND IF YOU LIKE<press><clr>IT, TAKE IT OVER<br>AND BE THE KING.<press><clr>FIREBRAND, LEAVE<br>FOR THE HUMAN<press><clr>LAND NOW!<br><press><script?,0xe9,0xfe,0xd2,0x00,0x19,0x10,0x16><closeTextBox>
+<end>
+
+134,0x2c58
+I WILL EXCHANGE<br><inserts number?>VIALS FOR THE<br>POWER OF<press><clr>MALESTROM.<yesNoBox,136,135><press><closeTextBox>
+<end>
+
+135,0x2c7e
+<clr>SEE YOU AGAIN.<br><press><closeTextBox>
+<end>
+
+136,0x2c8c
+<clr><jump,0xf2,0x94,0x6c,137,0,138,0>THE POWER OF<br>MALESTROM IS VERYPRECIOUS. BE<press><clr>CAREFUL NOT TO<br>WASTE IT.<press><closeTextBox>
+<end>
+
+137,0x2cb1
+<clr>SORRY, BUT YOU<br>NEED MORE VIALS.<press><clr>THE POWER OF<br>MALESTROM IS VERYRARE AND<press><clr>EXPENSIVE.<br><press><closeTextBox>
+<end>
+
+138,0x2ce7
+<clr>DON'T MONOPOLYZE<br>THE PRECIOUS<press><clr>POWER OF<br>MALESTROM!<press><closeTextBox>
+<end>
+
+139,0x2d06
+FIREBRAND USED<br><inserts item?><press><closeTextBox>
+<end>
+
+140,0x2d19
+NOTHING HAPPENED.<press><closeTextBox>
+<end>
+
+141,0x2d2a
+WHO ARE YOU? YOU<br>CANNOT GO ANY<press><clr>FURTHER.<br><press><closeTextBox>
+<end>
+
+142,0x2d44
+DO YOU WANT KNOW<br>THE PASSWORD?<yesNoBox,143,135><press><closeTextBox>
+<end>
+
+143,0x2d58
+<clr>IT IS<br><currentPassword><press><script?,0xfb,0xbf><closeTextBox>
+<end>
+
+144,0x2d60
+FIREBRAND REVIVEDTHANKS TO THE<press><clr>PASSWORD.<br><press><closeTextBox>
+<end>
+
+145,0x2d8f
+FIREBRAND<br>OBTAINED 3 VIALS.<playSnd,0xa1><shortWait,0x8c><playSnd,0x86><press><script?,0xf1,0x03><closeTextBox>
+<end>
+
+146,0x2db1
+FIREBRAND<br>OBTAINED 6 VIALS.<playSnd,0xa1><shortWait,0x8c><playSnd,0x86><press><script?,0xf1,0x06><closeTextBox>
+<end>
+
+147,0x2dd3
+OH, THAT'S<br>LETHE'S CANDLE.<press><clr>YOU SAW LETHE,<br>DIDN'T YOU? YOU<press><clr>MUST BE THE ONE<br>WHO CAN SAVE THE<press><clr>GHOUL REALM. I'LLPUT MY POWER INTOTHE CANDLE.<press><clr>KAH<script?,0xec><script?,0xe9,0xfe,0xba,0x00,0x16,0x40,0x09>HHH...<br><press><clr>SOMETHING VERY<br>POWERFUL HAS<press><clr>BUILT UP IN<br>FIREBRAND'S BODY.FIREBRAND<press><clr>OBTAINED THE<br>MAGIC CLAW.<playSnd,0xa1><shortWait,0xb4><playSnd,0x87><press><script?,0xe9,0xfe,0xb0,0x00,0x16,0x40,0x09><script?,0xf0,0x15><closeTextBox>
+<end>
+
+148,0x2e94
+OH, THAT'S<br>LETHE'S CANDLE.<press><clr>YOU SAW LETHE,<br>DIDN'T YOU? YOU<press><clr>MUST BE THE ONE<br>WHO CAN SAVE THE<press><clr>GHOUL REALM. I'LLPUT MY POWER INTOTHE CANDLE.<press><clr>KAH<script?,0xec><script?,0xe9,0xfe,0xba,0x00,0x18,0x40,0x09>HHH...<br><press><clr>FIREBRAND<br>OBTAINED THE<press><clr>HIPPOGRIFF'S<br>FEATHER.<playSnd,0xa1><shortWait,0xb4><playSnd,0x87><script?,0xee,0x00,0x02,0x00><press><br><clr>FIREBRAND'S WINGSWERE COVERED WITHTHE HIPPOGRIFF'S<press><clr>FEATHER. NOW<br>FIREBRAND CAN FLYFURTHER THAN<press><clr>BEFORE.<br><press><br><script?,0xe9,0xfe,0xb4,0x00,0x18,0x40,0x09><script?,0xf0,0x14><closeTextBox>
+<end>
+
+149,0x2f80
+<clr>YOU WON'T BE ABLETO CROSS OVER<press><clr>THAT RIVER WITH<br>SUCH WEAK<press><clr>FINGERNAILS.<br><press><closeTextBox>
+<end>
+
+150,0x2fa9
+OH! YOU HAVE THE<br>WINGS OF A FALLENANGEL! WITH THOSEWINGS, YOU MAY BEABLE TO FLY OVER<press><clr>GAZA VALLEY. GO<br>TO DESERT SITTEM,FIREBRAND!<press><closeTextBox>
+<end>
+
+151,0x3011
+<clr>YOU DON'T SEEM TOHAVE THE PROOF OFTHE WARRIOR, THE<press><clr>SPECTRE'S<br>FINGERNAIL...<press><clr>HURRY UP AND GO<br>SEE KING MOROCK!<press><closeTextBox>
+<end>
+
+152,0x3055
+FIREBRAND<br>OBTAINED 6 VIALS.<press><script?,0xf1,0x06><closeTextBox>
+<end>
+
+153,0x3071
+DO YOU WANT KNOW<br>THE PASSWORD?<yesNoBox,154,135><press><closeTextBox>
+<end>
+
+154,0x3085
+<clr>IT IS<br><currentPassword><press><script?,0xfb,0xbd><closeTextBox>
+<end>
+
+155,0x308d
+DO YOU WANT KNOW<br>THE PASSWORD?<yesNoBox,156,135><press><closeTextBox>
+<end>
+
+156,0x30a1
+<clr>IT IS<br><currentPassword><press><script?,0xfb,0xbe><closeTextBox>
+<end>
+
+157,0x30a9
+FIREBRAND<br>OBTAINED THE<press><clr>HOMING FIRE.<br><playSnd,0xa1><shortWait,0x8c><playSnd,0x86><press><script?,0xe9,0xfe,0xe9,0x98,0x1e,0xa0,0x0e><closeTextBox>
+<end>
+
+158,0x30d6
+NOW, FIREBRAND<br>CAN USE THE<press><clr>ASTRAL<br>PROJECTION.<playSnd,0xa1><shortWait,0x8c><playSnd,0x86><press><script?,0xe9,0xfe,0xea,0xe8,0x18,0xa0,0x11><closeTextBox>
+<end>
+
+159,0x3105
+<jump,0xf5,0x00,0x08,0x00,159,8,151,0>YOU SEEM TO HAVE<br>OBTAINED THE<press><clr>SPECTRE'S<br>FINGERNAIL. THEY<press><clr>ARE TOUGH. GOOD<br>LUCK!<press><script?,0xec><script?,0xf3><script?,0xf0,0x03><closeTextBox>
+<end>
+
+160,0x313b
+FIREBRAND<br>OBTAINED 6 VIALS.<playSnd,0xa1><shortWait,0x8c><playSnd,0xa2><press><script?,0xf1,0x06><closeTextBox>
+<end>
+

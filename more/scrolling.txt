@@ -1,0 +1,30 @@
+Hi,
+
+I inserted the font and changed the words you mentioned.
+I hope I made no mistakes: http://www.bailli.de/files/tmp/GQ2-esp.rar
+
+The scrolling texts basically are divided into 3 parts:
+
+a) (compressed) tilemap defining 2x2 blocks
+b) definition of "macro" blocks consisting of 2x2 blocks from a) (-> so these blocks are 4x4 tiles large)
+c) tilemap describing the actual map using the 4x4 macro blocks from b)
+Here (c) is some weired replication in place which I did not fully understand, but could work arond it,
+also the tilemap has a stange layout, something like this (this is probably not correct, just what I remember):
+
+1234DE
+5678FG
+9ABCHI
+JKLMRS
+NOPQTU
+
+For the ending text offsets of a, b, c are these:
+a) 0x2A516
+b) 0x2A44C
+c) 0x2A3CE
+
+The legend is just before the ending text, I am not sure about all offsets anymore:
+a) 0x2A2D3 (this is correct)
+b) 0x2A26F (probably correct)
+c) 0x2A215 (very unsure)
+
+You should also know that I ran into space problems and had to tailor the beginning of the compressed tilemap (a) in that way that it matched my desired end for part (b).

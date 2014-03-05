@@ -1,0 +1,559 @@
+end:
+さいごまで
+あそんでくれて
+どうも
+ありがとも
+
+boss names:
+ナーガス
+デス バルーン
+サンド フロッブ
+ツイン ガーディアン
+ドッペルゲンガー
+ゴーザ
+キング ブレーガー
+レッド アリーマー
+
+NAGASU (NAGUS)
+DEATH BALLOON
+SAND FROG
+TWIN GUARDIANS
+DOPPELGANGER
+GOZA
+KING BUREGA (BREAGER)
+RED AREEMER (FIREBRAND)
+
+
+TO-DO b4 beta:
+zeroing of magic window is not correct!
+
+4A25 muss auf ld hl,C35C
+swap@4A20 muss durch "a*0x14" ersetzt werden -> jump to 7C30 ?
+
+inc a
+swap a
+
+4A1C:
+ld a,04
+ld e,a
+jp 7C30
+
+7C30:
+inc a
+push de
+ld e,a
+xor a
+ld d,a
+ld bc,0014
+add c
+dec e
+jr nz,-4
+pop de
+jp 4a22
+
+
+funktioniert HOMING FIRE?!
+nein -> string @ 35b31 ?
+
+
+
+
+Menütexte:
+
+Start/Passwort:
+2801F 4bytes : NEW (271E3000)
+28030 7bytes : PASSWRD (291A2C2C302B1D)
+
+Level/Tool/Magic
+
+009806 3bytes : LVL (252F25)
+00980F 3bytes : USE (2E2C1E)
+009818 4bytes : MGIC (2620221C)
+
+
+Level:
+Jump Wing Life
+Nail   Item
+       Vials
+Wing   Maelstrom
+Armor  Magic Pow
+       Fire
+
+starts at 00982B compressed as tile set!
+4 bytes bitmask (4th always 0x00 ?)
+
+009837 4bytes : JUMP (232E2629)
+00983D 4bytes : WING (30222720)
+009843 4bytes : LIFE (25221F1E)
+
+
+009895 4bytes : VIAL (2F221A25)
+635f58504566 (entspricht MAELSTROM)
+
+035AA5 5bytes : FIRE (1F222B1E00)
+
+
+Tool:
+
+Magic:
+009953 5bytes : FIRE (1F222B1E00)
+
+0x03D14 YES/NO dialog
+
+
+0x35A99 erst Pointer dann 0xEA terminierte Strings von "MAGIC"
+Pointer von MAGIC tilemap at 0x37874  08 F0 78
+ファイア-
+バスタ-
+トルネイド
+クロ-
+ダ-ク F
+ホ-ミング
+
+(Max 8 Chars)
+FIRE
+BUSTER
+TORNADO
+CLAW
+DARK F
+HOMING
+37B20: 4c 4f 58 4b ea 48 5b 59 5a 4b 58 ea 5a 55 58 54 47 4a 55 ea 49 52 47 5d ea 4a 47 58 51 00 4c ea 4e 55 53 4f 54 4d ea
+Pointer: 20 7b 25 7b 2c 7b 34 7b 39 7b 40 7b
+
+0x36A7A erst Pointer dann 0xEA terminierte Strings von "TOOL"
+Pointer auf TOOL tilemap at 0x37932
+アルゴブのつぼ
+よるのしずく
+くらやみのロ-ソク
+のろいのつえ
+アケロンのみず
+タゴンのうろこ
+せんけつのロ-ソク
+レ-テのロ-ソク
+まかいのロ-ソク
+
+ARGOB'S POT
+NIGHT DROP
+CANDLE OF<br>DARKNESS
+GREMLIN STICK
+ACHELON'S WATER
+DAGON'S SCALES
+CANDLE OF THE<br>POLTERGEIST
+LETHE'S CANDLE
+CANDLE OF THE<br>GHOUL REALM
+37B50:47 58 4d 55 48 44 59 00 56 55 5a ea 54 4f 4d 4e 5a 00 4a 58 55 56 ea 49 47 54 4a 52 4b 00 55 4c e3 4a 47 58 51 54 4b 59 59 ea 4d 58 4b 53 52 4f 54 00 59 5a 4f 49 51 ea 47 49 4e 4b 52 55 54 44 59 00 5d 47 5a 4b 58 ea 4a 47 4d 55 54 44 59 00 59 49 47 52 4b 59 ea 49 47 54 4a 52 4b 00 55 4c 00 5a 4e 4b e3 56 55 52 5a 4b 58 4d 4b 4f 59 5a ea 52 4b 5a 4e 4b 44 59 00 49 47 54 4a 52 4b ea 49 47 54 4a 52 4b 00 55 4c 00 5a 4e 4b e3 4d 4e 55 5b 52 00 58 4b 47 52 53 ea
+Pointer 50 7b 5c 7b 67 7b 7a 7b 88 7b 98 7b a7 7b c1 7b d0 7b
+
+new:
+ARGOB'S POT#THE NIGHT DROP#THE CANDLE OF;DARKNESS#THE GREMLIN;STICK#ACHELON'S WATER#DAGON'S SCALES#THE CANDLE OF;THE POLTERGEIST#LETHE'S CANDLE#THE CANDLE OF;THE GHOUL REALM#
+37C40: 47 58 4d 55 48 44 59 00 56 55 5a ea 5a 4e 4b 00 54 4f 4d 4e 5a 00 4a 58 55 56 ea 5a 4e 4b 00 49 47 54 4a 52 4b 00 55 4c e3 4a 47 58 51 54 4b 59 59 ea 5a 4e 4b 00 4d 58 4b 53 52 4f 54 e3 59 5a 4f 49 51 ea 47 49 4e 4b 52 55 54 44 59 00 5d 47 5a 4b 58 ea 4a 47 4d 55 54 44 59 00 59 49 47 52 4b 59 ea 5a 4e 4b 00 49 47 54 4a 52 4b 00 55 4c e3 5a 4e 4b 00 56 55 52 5a 4b 58 4d 4b 4f 59 5a ea 52 4b 5a 4e 4b 44 59 00 49 47 54 4a 52 4b ea 5a 4e 4b 00 49 47 54 4a 52 4b 00 55 4c e3 5a 4e 4b 00 4d 4e 55 5b 52 00 58 4b 47 52 53 ea 
+Pointer 40 7c 4c 7c 5b 7c 72 7c 84 7c 95 7c a3 7c c1 7c d0 7c 
+
+(Max 15 Chars)
+ARGOB'S POT
+NIGHT DROP
+CDL OF DARKNESS
+GREMLIN STICK
+ACHELON'S WATER
+DAGON'S SCALES
+CDL POLTERGEIST
+LETHE'S CANDLE
+CDL GHOUL REALM --> 0x7960 @ ROM8 --> code @ 0x3f60 @ ROM0
+
+08b4
+
+3F60:
+ld hl,DBE3
+ld c,0F
+push de
+ld de,7960
+ld a,(de)
+inc de
+ldi (hl),a
+dec c
+jr nz,-6
+pop de
+jp 08B4
+
+0x35ACE erst Pointer dann 0xEA terminierte Strings von "WING/NAIL/ARMOR"
+だてんしのつばさ
+ヒポグリフのはね
+ベリアルのつばさ
+しにがみのつめ
+マンモンのひづめ
+なげきのよろい
+アトラスのよろい
+
+ANGEL'S WINGS
+HIPPOGRIFF'S FEATHER
+BEREAL'S WINGS
+SPECTRE'S FINGERNAIL
+MAMMON'S HOOF
+DRAGON'S ARMOR
+ATLAS'ARMOR
+
+(Max 8 Chars)
+ANGEL
+HIPPOGRF
+BEREAL
+FNGRNAIL
+MAMMON
+DRAGON
+ATLAS
+37BF0: 47 54 4d 4b 52 ea 4e 4f 56 56 55 4d 58 4c ea 48 4b 58 4b 47 52 ea 4c 54 4d 58 54 47 4f 52 ea 53 47 53 53 55 54 ea 4a 58 47 4d 55 54 ea 47 5a 52 47 59 ea
+Pointers f0 7b f6 7b ff 7b 06 7c 0f 7c 16 7c 1d 7c
+reverse: 1d 7c 16 7c 0f 7c 06 7c ff 7b f6 7b f0 7b
+
+
+0x3AA55 Introtext
+0x38106 Pointer auf Introtext
+
+0x38000 Bank E Textbank
+=======================
+Beginn: Hex 62 61 6E 6B 65 00 banke
+- lauter Textpointer 0xAABB => Pointer auf (0xBBAA + 0x4000)
+- erster Pointer auf 0x38148 (direkt nach dem Ende der Pointertabelle)
+- Pointer zeigt (fast?) immer auf 0x0D - Textbeginn dann bei Pointer+1
+                                         ^--- Blödsinn 0x0D wird angezeigt !
+                                                          ^---- das ist ein Anführungszeichen!
+- 161 Pointer insgesamt
+- "String" wird mit E5 beendet <--- scheinbar doch nicht immer...
+- am besten nächsten Pointer als Stringende verwenden
+- E9 zeigt Event an; 6bytes
+- letzter String endet @ 0x3B15C
+- freier FF-Block ab 0x3C000
+
+Textbox: 2zeilig mit jeweils 17 Zeichen breit
+  mehr als 17 Zeichen werden automatisch umgebrochen
+
+Besonderheiten:
+Hex E9 FE 8D 00 03 00 01 am Ende des Introtextes: führt Events o.ä. aus?
+
+
+Zeichentabelle:
+===============
+
+(btw U+3041 entspricht 0xE38181)
+
+Tile Z UTF-8
+0x00   Leerzeichen
+0x01 : Doppelpunkt
+0x02  ゙ U+309A
+0x03  ゙ U+3099
+0x04 ぁ U+3041
+0x05 ぃ U+3043
+0x06 ぅ U+3045
+0x07 ぇ U+3047
+0x08 ぉ U+3049
+0x09 ゃ U+3083
+0x0A ゅ U+3085
+0x0B ょ U+3087
+0x0C っ U+3063
+0x0D 「 U+300C
+0x0E 」 U+300D
+0x0F '
+0x10 0
+0x11 1
+0x12 2
+0x13 3
+0x14 4
+0x15 5
+0x16 6
+0x17 7
+0x18 8
+0x19 9
+0x1A A
+0x1B B
+0x1C C
+0x1D D
+0x1E E
+0x1F F
+0x20 G
+0x21 H
+0x22 I
+0x23 J
+0x24 K
+0x25 L
+0x26 M 
+0x27 N
+0x28 O
+0x29 P
+0x2A Q
+0x2B R
+0x2C S
+0x2D T
+0x2E U 
+0x2F V
+0x30 W
+0x31 X
+0x32 Y
+0x33 Z
+0x34 ァ U+30A1
+0x35 ィ U+30A3
+0x36 ゥ U+30A5
+0x37 ェ U+30A7
+0x38 ォ U+30A9
+0x39 ャ U+30E3
+0x3A ュ U+30E5
+0x3B ョ U+30E7
+0x3C ッ U+30C3
+0x3D ゜ U+309C
+0x3E ゛ U+309B
+0x3F .
+0x40 あ U+3042
+0x41 い U+3044
+0x42 う U+3046
+0x43 え U+3048
+0x44 お U+304A
+0x45 か U+304B
+0x46 き U+304D
+0x47 く U+304F
+0x48 け U+3051
+0x49 こ U+3053
+0x4A さ U+3055
+0x4B し U+3057
+0x4C す U+3059
+0x4D せ U+305B
+0x4E そ U+305D
+0x4F た U+305F
+0x50 ち U+3061
+0x51 つ U+3064
+0x52 て U+3066
+0x53 と U+3068
+0x54 な U+306A
+0x55 に U+306B
+0x56 ぬ U+306C
+0x57 ね U+306D
+0x58 の U+306E
+0x59 は U+306F
+0x5A ひ U+3072
+0x5B ふ U+3075
+0x5C へ U+3078
+0x5D ほ U+307B
+0x5E ま U+307E
+0x5F み U+307F
+0x60 む U+3080
+0x61 め U+3081
+0x62 も U+3082
+0x63 や U+3084
+0x64 ゆ U+3086
+0x65 よ U+3088
+0x66 ら U+3099
+0x67 り U+308A
+0x68 る U+308B
+0x69 れ U+308C
+0x6A ろ U+308D
+0x6B わ U+308F
+0x6C を U+3092
+0x6D ん U+3093
+0x6E ! !
+0x6F ? ?
+0x70 ア U+30A2
+0x71 イ U+30A4
+0x72 ウ U+30A6
+0x73 エ U+30A8
+0x74 オ U+30AA
+0x75 カ U+30AB
+0x76 キ U+30AD
+0x77 ク U+30AF
+0x78 ケ U+30B1
+0x79 コ U+30B3
+0x7A サ U+30B5
+0x7B シ U+30B7
+0x7C ス U+30B9
+0x7D セ U+30BB
+0x7E ソ U+30BD
+0x7F タ U+30BF
+0x80 チ U+30C1
+0x81 ツ U+30C4
+0x82 テ U+30C6
+0x83 ト U+30C8
+0x84 ナ U+30CA
+0x85 ニ U+30CB
+0x86 ヌ U+30CC
+0x87 ネ U+30CD
+0x88 ノ U+30CE
+0x89 ハ U+30CF
+0x8A ヒ U+30D2
+0x8B フ U+30D5
+0x8C ヘ U+30D8
+0x8D ホ U+30DB
+0x8E マ U+30DE
+0x8F ミ U+30DF
+0x90 ム U+30E0
+0x91 メ U+30E1
+0x92 モ U+30E2
+0x93 ヤ U+30E4
+0x94 ユ U+30E6
+0x95 ヨ U+30E8
+0x96 ラ U+30E9
+0x97 リ U+30EA
+0x98 ル U+30EB
+0x99 レ U+30EC
+0x9A ロ U+30ED
+0x9B ワ U+30EF
+0x9C ヲ U+30F2
+0x9D ン U+30F3
+0x9E ▶ U+25B6
+0x9F ▼ U+25BC
+0xA0 -
+0xA1 +
+0xA2 /
+0xA3 × U+00D7
+0xA4 ▲ U+25B2
+0xA5   Leer
+0xA6   Leer
+0xA7   Leer
+0xA8 <boxTopLeft>
+0xA9 <boxTop>
+0xAA <boxTopRight>
+0xAB <boxBottomLeft>
+0xAC <boxBottomOr-?>
+0xAD <boxBottomRight>
+0xAE <boxLeft>
+0xAF <boxRight>
+0xB0 が U+304C
+0xB1 ぎ U+304E
+0xB2 ぐ U+3050
+0xB3 げ U+3052
+0xB4 ご U+3054
+0xB5 ざ U+3056
+0xB6 じ U+3058
+0xB7 ず U+305A
+0xB8 ぜ U+305C
+0xB9 ぞ U+305E
+0xBA だ U+3060
+0xBB ぢ U+3062
+0xBC づ U+3065
+0xBD で U+3067
+0xBE ど U+3069
+0xBF ば U+3070
+0xC0 び U+3073
+0xC1 ぶ U+3076
+0xC2 べ U+3079
+0xC3 ぼ U+307C
+0xC4 ガ U+30AC
+0xC5 ギ U+30AE
+0xC6 グ U+30B0
+0xC7 ゲ U+30B2
+0xC8 ゴ U+30B4
+0xC9 ザ U+30B6
+0xCA ジ U+30B8
+0xCB ズ U+30BA
+0xCC ゼ U+30BC
+0xCD ゾ U+30BE
+0xCE ダ U+30C0
+0xCF ヂ U+30C2
+0xD0 ヅ U+30C5
+0xD1 デ U+30C7
+0xD2 ド U+30C9
+0xD3 バ U+30D0
+0xD4 ビ U+30D3
+0xD5 ブ U+30D6
+0xD6 ベ U+30D9
+0xD7 ボ U+30DC
+0xD8 ヴ U+30F4
+0xD9 ぱ U+3071
+0xDA ぴ U+3074
+0xDB ぷ U+3077
+0xDC ぺ U+307A
+0xDD ぽ U+307D
+0xDE パ U+30D1
+0xDF ピ U+30D4
+0xE0 プ U+30D7
+0xE1 ペ U+30DA
+0xE2 ポ U+30DD
+0xE3 <br>
+0xE4 <waitForInput> 
+0xE5 <closeTextBox>
+0xE6 <waitForTime?>
+0xE7 <clearTextBox>
+0xE8 <changeMusic to _next byte_>
+0xE9 <event?+6bytes>
+0xEA <unkown - closeTextBox+? ?>
+0xEB <yesNoBox + two pointers for yes/no selection (4bytes)>
+0xEC <unkown - closeTextBoxLater ?>
+0xED <unkown>
+0xEE <unkown - uses next 3bytes>
+0xEF <inserts アルゴブのつぼ (item? GT: "Argob's Pot")>
+0xF0 <unkown - closesTextBoxLater after E4 ?>
+0xF1 <getVials count = nextByte>
+0xF2 <unkown - jump?>
+0xF3 <unkown - closesTextBoxLater after E4 ?>
+0xF4 <unkown - jump?>
+0xF5 <unkown - one char and close?>
+0xF6 <currentPassword? - closeTextBoxLater?>
+0xF7 <unkown - one char and closeTextBoxLater?>
+0xF8 <unkown - jump?>
+0xF9 <unkown - jump?>
+0xFA <unkown - jump?>
+0xFB <unkown - closesTextBoxLater after E4 ? - uses next byte>
+0xFC <doesntExist>
+0xFD <unkown - some script/asm/event/whatever>
+0xFE <unkown - some script/asm/event/whatever - only after E9>
+0xFF <doesntExist>
+
+
+0xF2 0xF4 0xF5 0xF8 0xF9 0xFA are followed by pointers!
+
+<script?,0xf5,0x00,0x20,0x00,0xde,0x49,0xec,0x48> ---  bytes 4/5 und 6/7 skip 3
+<script?,0xf4,0x01,0x80,0x6f,0x30,0x49> --- bytes 2/3 und 4/5 skip 1
+<script?,0xf9,0x03,0x30,0x5a,0x3b,0x58> --- bytes 2/3 und 4/5 skip 1
+<script?,0xfa,0x04,0x4d,0x5e,0x2a,0x6d> --- bytes 2/3 und 4/5 skip 1
+<script?,0xf8,0x11,0x5e,0x0e,0x57> --- bytes 1/2 und 3/4 skip 0
+<script?,0xf2,0x94,0x6c,0xb1,0x6c,0xe7,0x6c> --- only once (for vial -> malestrom exchange) bytes 1/2 3/4 5/6 
+
+00=_
+01=:
+0F='
+10=0
+11=1
+12=2
+13=3
+14=4
+15=5
+16=6
+17=7
+18=8
+19=9
+1A=A
+1B=B
+1C=C
+1D=D
+1E=E
+1F=F
+20=G
+21=H
+22=I
+23=J
+24=K
+25=L
+26=M
+27=N
+28=O
+29=P
+2A=Q
+2B=R
+2C=S
+2D=T
+2E=U
+2F=V
+30=W
+31=X
+32=Y
+33=Z
+3F=.
+6E=!
+6F=?
+A0=-
+A1=+
+A2=/
+A3=x
+E3=<br>
+E4=<waitForPlayer>
+E5=<end>
+E6=<waitForTime?>
+E7=<clear>
+E8=<stopMusic?>
+
+

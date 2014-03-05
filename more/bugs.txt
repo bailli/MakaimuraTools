@@ -1,0 +1,149 @@
+0x2A3CE tilemap using 4x4 _macro_tile_blocks_ (includes some weired replication - defined elsewhere?)
+0x2A44C definition of 4x4 macrotileblocks (44 MTBs) using 2x2 tile_blocks_
+
+TO DO
+"TORNADO" does not show up in char screen - gets zeroed out, but why? @3C0B ldi (hl),a --> inc hl
+legend by Lethe/ending is not translated --> hijack function that writes every line to WRAM0:C050
+--------- OR hijack function that reads every line from WRAM0:C050 <--- does not work - kills half of the game engine ^^
+
+FIXED:
+maybe: replace all chars/numbers with new font (needs new tile set for action scences? not replaced!)
+boss names at credits are not translated (somewhere around 0x36D12; needs new tileset?)
+"Candle of the Ghoul Realm" in tool dialogue not correct "5e4541" gets written to wram
+Tools menu "DÄGON'S SCALES"
+maybe: include "the" in the item name
+Line breaks/Clr before "Firebrand obtains" etc...
+line break in password dialogue
+line breaks in the "firebrand used" dialogue
+
+
+WHEN GHOUL REALM IS COVERED WITH THE BLACK LIGHT, IT'S THE CRISIS OF THE GHOUL REALM. THE BLACK LIGHT WILL BRING DEATH AND DESTRUCTION EVERYWHERE. BUT THERE IS ONE HOPE FOR US. THAT'S A RED GARGOYLE. HE WILL TURN INTO THE RED BLAZE AND SEAL THE BLACK LIGHT.
+
+421B2604 0B21331C 05221A0C 3F082720 192D3D17
+120E0013 282B241D 1E3B1611 973A200F 412C1500
+00160B21 39373507 14253832 2E031722 4000340D
+02080C23 1A05293E 101F3607 43183031 06173D17
+081A003D 032A1712 44020E28 2F0A2B1E 19293C00
+
+
+44 44 44 44
+41 1A 25 03 28 20 32 1B 04 21 19 0B 3E 07 26 1F 12 2C 3C 16 11 0D 44 18 27 2A 23 1C 1D 3A 15 10 06 39 1F 0E 40 2B 14 44 44 15 28 20 38 36 34 06 13 24 37 31 2D 02 16 21 3F 44 33 0C 01 07 0B 22 19 04 0A 3D 0F 1E 35 06 42 17 2F 30 05 16 3C 16 07 19 44 3C 02 29 16 11 43 01 0D 27 2E 09 2A 1D 12 0A 00 9D
+
+18 28 3B 00 => 12 0A 00 99
+
+WHEN   THE   GHO  UL R  EALM
+IS C  OVER  ED W  ITH   THE 
+
+BLAC  K LI  GHT,   IT   WILL
+  BR  ING   DEAT  H AN  D
+
+  DE  STRU  CTIO  N. B  UT  
+ THE  RE I  S ON  E HO  PE.
+
+ A R  ED G  ARGO  YLE.   HE 
+ WIL  L TU  RN I  NTO   THE
+
+ RED   BLA  ZE A  ND S  EAL 
+  TH  E BL  ACK   LIGH  T.
+
+
+5d 4e 4b 54 00 5a 4e 4b 00 4d 4e 55 5b 52 00 58 4b 47 52 53 
+4f 59 00 49 55 5c 4b 58 4b 4a 00 5d 4f 5a 4e 00 5a 4e 4b 00
+48 52 47 49 51 00 52 4f 4d 4e 5a 43 00 4f 5a 00 5d 4f 52 52 
+00 00 48 58 4f 54 4d 00 4a 4b 47 5a 4e 00 47 54 4a 00 00 00 
+00 00 4a 4b 59 5a 58 5b 49 5a 4f 55 54 3f 00 48 5b 5a 00 00
+00 5a 4e 4b 58 4b 00 4f 59 00 55 54 4b 00 4e 55 56 4b 3f 00
+00 47 00 58 4b 4a 00 4d 47 58 4d 55 5f 52 4b 3f 00 4e 4b 00 
+00 5d 4f 52 52 00 5a 5b 58 54 00 4f 54 5a 55 00 5a 4e 4b 00
+00 58 4b 4a 00 48 52 47 60 4b 00 47 54 4a 00 59 4b 47 52 00
+00 00 5a 4e 4b 00 48 52 47 49 51 00 52 4f 4d 4e 5a 3f 00 00 
+
+10 lines
+
+
+20 chars/line
+19 lines (+1)
+
+00 00 00 5d 4e 4b 54 00 4c 4f 58 4b 48 58 47 54 4a 00 00 00
+00 00 00 4a 4b 4c 4b 47 5a 4b 4a 00 51 4f 54 4d 00 00 00 00
+00 48 58 4b 47 4d 4b 58 43 00 4c 4f 58 4b 48 58 47 54 4a 00
+58 4b 52 4b 47 59 4b 4a 00 47 52 52 00 55 4c 00 4e 4f 59 00
+00 00 56 55 5d 4b 58 3f 00 5a 4e 4b 00 4d 4e 55 5b 52 00 00
+58 4b 47 52 53 00 5d 47 59 00 4b 54 5c 4b 52 55 56 4b 4a 00
+00 4f 54 00 4c 52 47 53 4b 59 00 47 54 4a 00 5a 4e 4b 00 00
+00 00 48 52 47 49 51 00 52 4f 4d 4e 5a 00 5d 47 59 00 00 00
+59 5d 4b 56 5a 00 47 5d 47 5f 00 5a 55 4d 4b 5a 4e 4b 58 00
+00 00 5d 4f 5a 4e 00 5a 4e 4b 00 51 4f 54 4d 00 55 4c 00 00
+4a 4b 59 5a 58 5b 49 5a 4f 55 54 44 59 00 47 58 53 5f 3f 00
+5a 4e 5b 59 00 5a 4e 4b 00 4d 4e 55 5b 52 00 58 4b 47 52 53
+00 00 58 4b 5a 5b 58 54 4b 4a 00 5a 55 00 4f 5a 59 00 00 00
+00 56 4b 47 49 4b 4c 5b 52 00 59 5a 47 5a 4b 00 47 54 4a 00
+4c 4f 58 4b 48 58 47 54 4a 00 4c 5b 52 4c 4f 52 52 4b 4a 00
+00 5a 4e 4b 00 52 4b 4d 4b 54 4a 00 55 4c 00 5a 4e 4b 00 00
+00 58 4b 4a 00 48 52 47 60 4b 3f 00 47 54 4a 00 4e 4f 59 00
+00 52 4b 4d 4b 54 4a 00 5d 47 59 00 4e 47 54 4a 4b 4a 00 00
+4a 55 5d 54 00 4c 58 55 53 00 4d 4b 54 4b 58 47 5a 4f 55 54
+00 00 00 5a 55 00 4d 4b 54 4b 58 47 5a 4f 55 54 3f 00 00 00
+
+___WHEN_FIREBRAND
+___DEFEATED_KING
+_BREAGER,_FIREBRAND
+RELEASED_ALL_OF_HIS
+__POWER._THE_GHOUL
+REALM_WAS_ENVELOPED
+_IN_FLAMES_AND_THE
+__BLACK_LIGHT_WAS
+SWEPT_AWAY_TOGETHER
+__WITH_THE_KING_OF
+DESTRUCTION'S_ARMY.
+THUS_THE_GHOUL_REALM
+__RETURNED_TO_ITS
+_PEACEFUL_STATE_AND
+FIREBRAND_FULFILLED
+_THE_LEGEND_OF_THE
+_RED_BLAZE._AND_HIS
+_LEGEND_WAS_HANDED
+DOWN_FROM_GENERATION
+___TO_GENERATION.
+
+  WH EN F IREB RAND
+
+   W HEN  FIRE BRAN D
+   D EFEA TED  KING
+
+ BRE AGER , FI REBR AND
+RELE ASED  ALL  OF  HIS
+
+  PO WER.  THE  GHO UL
+REAL M WA S EN VELO PED
+
+ IN  FLAM ES A ND T HE
+  BL ACK  LIGH T WA S
+
+SWEP T AW AY T OGET HER
+  WI TH T HE K ING  OF
+
+DEST RUCT ION' S AR MY.
+THUS  THE  GHO UL R EALM
+
+  RE TURN ED T O IT S
+ PEA CEFU L ST ATE  AND
+
+FIRE BRAN D FU LFIL LED
+ THE  LEG END  OF T HE
+
+ RED  BLA ZE.  AND  HIS
+ LEG END  WAS  HAND ED
+
+DOWN  FRO M GE NERA TION
+   T O GE NERA TION .
+
+35EF call 329D <--- writes to C050
+
+2^4 * (30538)
+
+@ 0x30538 line length or similiar?
+or @ 0x35BEC ?
+or @ 0x2A3CE (+0x10) ?
+
+call 0C28
